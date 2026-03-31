@@ -1,0 +1,25 @@
+# Secrets — NEVER commit
+.env
+.secrets/
+*.token
+*credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+*.egg-info/
+
+# uv
+.uv/
+
+# macOS
+.DS_Store
+
+# Obsidian
+AI_Employee_Vault/.obsidian/workspace.json
+AI_Employee_Vault/.obsidian/workspace-mobile.json
+
+# Logs (optional — remove if you want to track logs in git)
+AI_Employee_Vault/Logs/*.md
